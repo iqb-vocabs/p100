@@ -1,6 +1,6 @@
 # Metadatenprofile für Testaufgaben: Mathematik Sek I
 
-ID of profile-store: `mas1`
+ID of profile-store: `[mas1](mas1)`
 
 Creator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
