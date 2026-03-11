@@ -1,0 +1,163 @@
+{
+  "id": "https://w3id.org/iqb/p100/item/",
+  "label": [{
+    "lang": "de",
+    "value": "IQB Mathematik Sek I - Item"
+  }],
+  "target": ["ITEM"],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Item"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_item_format",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Itemformat"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v27/ms/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_requirement_area",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Anforderungsbereich"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v51/a1/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_standards_esa1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Inhaltsbezogener Bildungsstandard ESA primär"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v51/ie/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_standards_msa1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Inhaltsbezogener Bildungsstandard MSA primär"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v51/im/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_standards_pr",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Prozessbezogener Bildungsstandard"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v51/p1/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_standards_esa2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Inhaltsbezogener Bildungsstandard ESA sekundär"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v51/ie/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_standards_msa2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Inhaltsbezogener Bildungsstandard MSA sekundär"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v51/im/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_time_item",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Itemzeit"
+            }
+          ],
+          "type": "NUMBER",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_exante_difficulty",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Geschätzte Schwierigkeit"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v26/ea/",
+            "allowMultipleValues": false
+          }
+        },
+        {
+          "id": "iqb_itemtech",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Technische Besonderheiten der Antwortoptionen"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v27/ti/",
+            "allowMultipleValues": true
+          }
+        }
+      ]
+    }
+  ]
+}
